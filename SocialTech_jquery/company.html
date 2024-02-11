@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SocialTech - MISSON ミッション -</title>
+    <meta charset="utf-8">
+    <meta description="SocialTechが目指す5つの目標（S2DGs）を紹介します">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <!-- ロゴ -->
+        <a href="index.html" id="logo"><img src="images/logo.png" alt="トップページに戻る"></a>
+
+        <!-- PC用ナビゲーション -->
+        <nav id="nav-pc">
+            <a href="mission.html">MISSION</a>
+            <a href="product.html">PRODUCT</a>
+            <a href="index.html#aboutus">ABOUT US</a>
+            <a href="index.html#vision">VISION</a>
+            <a href="index.html#company">COMPANY</a>
+            <a href="index.html#contact">CONTACT</a>
+        </nav>
+
+        <!-- スマホ用メニューボタン -->
+        <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く"
+            onclick="document.getElementById('nav-sp').style.display = 'block'">
+
+        <!-- スマホ用ナビゲーション -->
+        <nav id="nav-sp">
+            <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる"
+                onclick="document.getElementById('nav-sp').style.display = 'none'">
+            <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img
+                    src="images/logo-sp.png" alt="トップページに戻る"></a>
+            <a class="menu" href="mission.html"
+                onclick="document.getElementById('nav-sp').style.display = 'none'">MISSION</a>
+            <a class="menu" href="product.html"
+                onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
+            <a class="menu" href="index.html#aboutus"
+                onclick="document.getElementById('nav-sp').style.display = 'none'">ABOUT US</a>
+            <a class="menu" href="index.html#vision"
+                onclick="document.getElementById('nav-sp').style.display = 'none'">VISION</a>
+            <a class="menu" href="index.html#company"
+                onclick="document.getElementById('nav-sp').style.display = 'none'">COMPANY</a>
+            <a class="menu" href="index.html#contact"
+                onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
+            <div id="sns">
+                <a href="https://www.facebook.com/sejuku2013"><img src="images/button-facebook.png"
+                        alt="Facebookのリンク"></a>
+                <a href="https://twitter.com/samuraijuku"><img src="images/button-twitter.png" alt="Twitterのリンク"></a>
+                <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g"><img src="images/button-youtube.png"
+                        alt="YouTubeのリンク"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <!-- COMPANY -->
+            <section id="company">
+                <h2 class="index-h2">COMPANY</h2>
+                <h3>会社概要</h3>
+                <table id="company-table">
+                    <tr>
+                        <th class="tableheader-first">会社名</th>
+                        <td class="cell-first">株式会社SocialTech</td>
+                    </tr>
+                    <tr>
+                        <th class="tableheader">所在地</th>
+                        <td class="cell">〒150-0043 東京都渋谷区道玄坂2丁目11-1 Gスクエア渋谷道玄坂4F<br>JR山手線「渋谷駅」より徒歩3分</td>
+                    </tr>
+                    <tr>
+                        <th class="tableheader">代表者</th>
+                        <td class="cell">代表取締役 田中 太郎</td>
+                    </tr>
+                    <tr>
+                        <th class="tableheader">設立</th>
+                        <td class="cell">2015年3月19日</td>
+                    </tr>
+                </table>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7759544892483!2d139.69399665123464!3d35.65789123876098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188caa0042e8d1%3A0xba130bea826a7aa2!2z44CSMTUwLTAwNDMg5p2x5Lqs6YO95riL6LC35Yy66YGT546E5Z2C77yS5LiB55uu77yR77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1636872991912!5m2!1sja!2sjp"
+                    style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </section>
+        </article>
+        <footer>
+            <div id="footer-logo">
+                <img src="images/logo-sp.png" alt="SocialTech">
+            </div>
+            <div id="footer-link">
+                <a href="mission.html">MISSION</a>
+                <a href="product.html">PRODUCT</a>
+                <a href="index.html#aboutus">ABOUT US</a>
+                <a href="index.html#vision">VISION</a>
+                <a href="index.html#company">COMPANY</a>
+                <a href="index.html#contact">CONTACT</a>
+            </div>
+            <div id="sns-footer">
+                <a href="https://www.facebook.com/sejuku2013"><img src="images/button-facebook.png"
+                        alt="Facebookのリンク"></a>
+                <a href="https://twitter.com/samuraijuku"><img src="images/button-twitter.png" alt="Twitterのリンク"></a>
+                <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g"><img src="images/button-youtube.png"
+                        alt="YouTubeのリンク"></a>
+                <span id="copyright">&copy;2021 SocialTech, Inc. All Rights Reserved. <span>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
